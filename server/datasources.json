@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+	"file": "db.json"
+  },
+  "accountDs": {
+    "host": "localhost",
+    "database": "management",
+    "username": "root",
+    "password": "",
+    "name": "accountDs",
+    "connector": "mysql"
+  }
+}

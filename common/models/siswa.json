@@ -1,0 +1,29 @@
+{
+  "name": "Siswa",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nama": {
+      "type": "string"
+    },
+    "Kelas": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
